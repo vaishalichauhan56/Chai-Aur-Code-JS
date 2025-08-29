@@ -8,15 +8,15 @@ const user = {
 
 }
 
-// user.welcomeMessage()
-// user.username = "Vaishali"
-// user.welcomeMessage()
+user.welcomeMessage()
+user.username = "Vaishali"
+user.welcomeMessage()
 
 function chai() {
     console.log(this);
 
 }
-// chai();
+chai();
 
 const newAdd = (num1, num2) => num1 + num2  
 
